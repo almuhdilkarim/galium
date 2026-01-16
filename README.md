@@ -1,0 +1,2 @@
+# ceredot
+cerebrus hyprland dotfiles
