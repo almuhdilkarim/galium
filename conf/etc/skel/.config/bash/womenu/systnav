@@ -30,7 +30,7 @@ function raviza_navmenu_movers() {
 if [[ -n $( ps -A | grep wofi ) ]]; then
 	pkill wofi 
 else
-	wofi --conf ~/.config/wofi/systnav & 
+	sleep 0.1 && wofi --conf ~/.config/wofi/systnav & 
 fi
 
 
