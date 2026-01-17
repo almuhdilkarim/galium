@@ -247,6 +247,8 @@
         "format": "\uf04b <small></small>",
         "format-icons": ["\uf40e"],
         "tooltip-format": "Applications",
+        "escape": true,
+        "tooltip": false,
         "on-click": "/bin/bash $HOME/.config/bash/womenu/systnav"
     },
 
