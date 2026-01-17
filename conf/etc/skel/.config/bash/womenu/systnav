@@ -25,7 +25,7 @@ function raviza_navmenu_movers() {
 	unset setcur_x
 	unset setcur_y
 }
- d
+
 
 if [[ -n $( ps -A | grep wofi ) ]]; then
 	pkill wofi 
