@@ -30,14 +30,14 @@ function raviza_check_battery() {
 
     # Optional: Add a simple notification for low battery when discharging
     if [[ "$batstat" == "Discharging" && "$batcaps" -le 10 ]]; then
-	send_notife "Low Battery Warning" "Remaining Capacity: $batcaps%"
+        notify-send "Low Battery Warning" "Remaining Capacity: $batcaps%"
         sysbat_time=60
 	return
     fi
 
 
     if [[ "$batstat" == "Discharging" && "$batcaps" -le 20 ]]; then
-        send_notife "Low Battery Warning" "Remaining Capacity: $batcaps%"
+        notify-send "Low Battery Warning" "Remaining Capacity: $batcaps%"
         sysbat_time=120
 	return
     fi
@@ -50,19 +50,19 @@ function raviza_check_battery() {
     
 
     if [[ "$batstat" == "Discharging" && "$batcaps" -le 40 ]]; then
-        send_notife "Low Battery Warning" "Remaining Capacity: $batcaps%"
+        notify-send "Low Battery Warning" "Remaining Capacity: $batcaps%"
         sysbat_time=300
 	return
     fi
 
     if [[ "$batstat" == "Charging" && "$batcaps" -ge 95 ]]; then
-        send_notife "Battery Full" "Unplug Power Resource. Remaining Capacity: $batcaps%"
+        notify-send "Battery Full" "Unplug Power Resource. Remaining Capacity: $batcaps%"
         sysbat_time=120
 	return
     fi
 
     if [[ "$batstat" == "Full" && "$batcaps" -ge 100 ]]; then
-        send_notife "Battery Full" "Unplug Power Resource. Remaining Capacity: $batcaps%"
+        notify-send "Battery Full" "Unplug Power Resource. Remaining Capacity: $batcaps%"
         sysbat_time=60
 	return
     fi

@@ -17,7 +17,7 @@ editor = "lite-xl"
 
 #-- Directory Editor
 # 
-dir_editor = ""
+dir_editor = "nvim"
 
 #-- Auto check for update
 auto_check_update = true

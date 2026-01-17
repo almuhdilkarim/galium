@@ -200,7 +200,7 @@
 		"menu": "on-click",
 		"menu-file": "$HOME/.config/waybar/corenav/session.xml",
 		"menu-actions": {
-			"shutdown": "shutdown",
+			"shutdown": "poweroff",
 			"reboot": "reboot",
 			"suspend": "systemctl suspend",
 			"hibernate": "systemctl hibernate"
