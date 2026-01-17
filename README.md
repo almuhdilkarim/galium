@@ -1,2 +1,2 @@
-# ceredot
-cerebrus hyprland dotfiles
+# falcone
+falcone system configuration

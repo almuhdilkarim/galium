@@ -2,17 +2,9 @@
 
 function raviza_systems() {
 
-  local system="$HOME/.config/bash/systems"
-
-  if [[ $UID == 0 ]];then
-    source $system/rooter
-  fi
-
-  if [[ $UID != 0 ]];then
-    source $system/basher
-  fi
-
-  source $system/aliases
+  local system="root/.config/bash/systems"
+  test -f $system/basher && source $system/bashir
+  test -f $system/aliase && source $system/aliase
 }
 
 
