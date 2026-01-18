@@ -1,6 +1,10 @@
 # galium 
 **modern minimalis hyprland dotfiles**
 
-# installation
+## preview
+
+## feature
+
+## installation
 
 falcone system configuration
