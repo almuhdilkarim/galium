@@ -303,8 +303,10 @@ window#waybar.empty #window {
 }
 
 #tray {
+    padding: 0 10px;
+    margin-right: 5px;
     background-color: #2f354a;
-    border-radius: 18px 0 0 18px;
+    border-radius: 7px;
 }
 
 #custom-swaync {
