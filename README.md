@@ -1,2 +1,5 @@
-# galium hyprland dotfiles
+# galium 
+## hyprland dotfiles
+
+
 falcone system configuration
