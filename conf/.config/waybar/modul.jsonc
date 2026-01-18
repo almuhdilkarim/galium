@@ -249,7 +249,7 @@
         "tooltip-format": "Downloader",
         "escape": true,
         "tooltip": false,
-        "on-click": "/usr/local/pbin/motrix"
+        "on-click": "/usr/local/pbin/motrix --enable-features=UseOzonePlatform --ozone-platform=wayland"
     },
 
     "custom/appmenu": {
