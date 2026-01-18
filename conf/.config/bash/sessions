@@ -2,8 +2,8 @@
 
 function raviza_systems() {
 
-  local system="root/.config/bash/systems"
-  test -f $system/basher && source $system/bashir
+  local system="$HOME/.config/bash/systems"
+  test -f $system/bashir && source $system/bashir
   test -f $system/aliase && source $system/aliase
 }
 
