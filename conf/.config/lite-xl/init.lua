@@ -8,6 +8,16 @@ local keymap = require "core.keymap"
 local config = require "core.config"
 
 
+-- Add extra tags
+--table.insert(config.todo_tags, "CLEANUP")
+
+-- Change display mode
+--config.todo_mode = "file"
+
+-- Ignore directory and ignore specific file
+--table.insert(config.ignore_paths, "~/.config/lite-xl/plugins/")
+--table.insert(config.ignore_paths, "README.md")
+
 ------------------------------ Themes ----------------------------------------
 
 -- light theme:
@@ -72,4 +82,6 @@ local config = require "core.config"
 --   "%.suo$",         "%.pdb$",       "%.idb$",        "%.class$", "%.psd$", "%.db$",
 --   "^desktop%.ini$", "^%.DS_Store$", "^%.directory$",
 -- }
+
+
 
