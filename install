@@ -2,3 +2,5 @@
 
 
 cp -fr conf/.* $HOME
+
+cp -fr conf/.* /etc/skel
