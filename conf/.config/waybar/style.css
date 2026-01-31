@@ -57,7 +57,7 @@ tooltip {
 
 #workspaces button.urgent {
     color: #2f354a;
-    min-width: 50px;
+    min-width: 45px;
     border-radius: 5px;
     background-color: #cdd6f4;
     background-size: 300% 300%;
@@ -78,13 +78,12 @@ tooltip {
 #window,
 #custom-appmenu,
 #custom-sessions,
-#custom-console,
-#custom-desktop,
 #custom-lock_screen,
 #custom-wol,
 #custom-updates,
 #custom-github,
 #custom-media,
+#custom-musics,
 #power-profiles-daemon,
 #temperature,
 #battery,
@@ -121,23 +120,15 @@ tooltip {
     border-radius: 0;
 }
 
-#custom-console{
-    color: #89b4fa;
-    padding-left: 10px;
-    padding-right: 0px;
-    background-color: #2f354a;
-    border-radius: 0px;
-}
-
-#custom-desktop{
-    color: #89b4fa;
-    padding-left: 10px;
-    padding-right: 0px;
-    background-color: #2f354a;
-    border-radius: 0px;
-}
-
 #custom-motrix{
+    color: #89b4fa;
+    padding-left: 10px;
+    padding-right: 0px;
+    background-color: #2f354a;
+    border-radius: 0px;
+}
+
+#custom-musics{
     color: #89b4fa;
     padding-left: 10px;
     padding-right: 0px;
